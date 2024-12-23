@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.headerparent {
+    display: flex;
+    height:200px;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    
+}
+.title{
+    align-content: center;
+    justify-content: center;
+}
+.side li{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    
+    a:active { color: red; /* Color when the link is being clicked */ };
+    a { text-decoration: none; /* Remove underline */ color: white; /* Default link color */  }
+
+}
+
+header.logo {
+    font-weight : bold;
+    font-size : larger;
+}
+
+
+  
+   
+
+
+
+
+/* Main Content Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.projects, .work, .education {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.projects h3, .work h3, .education h3 {
+    margin-bottom: 1rem;
+}
+
+/* Reviews */
+.reviews {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.review-box {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.review-box p {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
